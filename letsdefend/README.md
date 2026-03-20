@@ -1,4 +1,4 @@
 
 These are the lessons in LetsDefend divided by main topics:
 
-[Network Log Analysis](./letsdefend/NetworkLogAnalysis/README.md)
+[Network Log Analysis](./NetworkLogAnalysis/README.md)
