@@ -102,15 +102,4 @@ method IN (DELETE, PUT)
 | where count > 10
 
 
-
-
-
-   
-
-   
-
----
-
-## 📚 Lessons Learned
-- Importance of status codes
-- Identifying abnormal traffic
+End of Lesson
