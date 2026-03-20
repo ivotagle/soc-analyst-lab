@@ -3,8 +3,11 @@
 
 ## 📌 Scenario
 At the end of the lesson we get to answer four questions. To start, we are given a massive log file. In my case to keep it simple, I use CLI that comes with Ubuntu. 
+
 CLI command: cat http.log | more
-Gives us the following:
+
+Gives us the following: showing us a vast amount of data:
+[Partial Web Log](./screenshots/wl001.png)
 
 
 ---
