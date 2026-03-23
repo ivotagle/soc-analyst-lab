@@ -1,5 +1,5 @@
 
-DNS
+DNS Log Analysis
 
 First scenario: We cross information of two logs, DNS and Firewall:
 
@@ -21,3 +21,10 @@ Classic DNS	 53	    UDP/TCP
 DoT	         853	  TLS
 DoH	         443	  HTTPS
 
+
+Second scenario
+This DNS Log: Mar 5 19:12:11 ns1 named[80090]: client 172.16.11.34#3261: query: am4wuz3zifexz5u.onion IN A
+
+In this case, looking at the domain that ends in ".onion" gives away the involvement of the TOR Network. So the IP is requesting something in that Network, then it is suspicious. More if it comes from IP 172, which is usually a private DNS.
+
+Next steps: Look for TOR ports used (9150, 9050 or 9001). TOR installation in the end device. Recall the number of queries. High number = suspicious.
